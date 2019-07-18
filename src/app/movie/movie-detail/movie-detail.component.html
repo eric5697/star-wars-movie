@@ -1,0 +1,73 @@
+<h2>{{movie.title}} ({{movie.episode_id}})</h2>
+<hr>
+<table style="white-space: pre-wrap">
+    <tr>
+        <td class="font-weight-bold">Director</td>
+        <td> : </td>
+        <td>{{movie.director}}</td>
+    </tr>
+    <tr>
+        <td class="font-weight-bold">Producer</td>
+        <td> : </td>
+        <td>{{movie.producer}}</td>
+    </tr>
+    <tr>
+        <td class="font-weight-bold">Release Date</td>
+        <td> : </td>
+        <td>{{movie.release_date}}</td>
+    </tr>
+</table>
+<div class="row mt-3">
+    <div class="col-md-4">
+        <div class="border-style rounded">
+            <p class="font-weight-bold">Opening Crawl</p>
+            <div style="white-space: pre-wrap">{{movie.opening_crawl}}</div>
+        </div>
+    </div>
+</div>
+<h4 class="font-weight-bold mt-3">Characters</h4>
+<hr>
+<div class="row">
+    <div class="col-md-3" *ngFor="let character of elements.characters">
+        <ul>
+            <li>{{character.name}}</li>
+        </ul>
+    </div>
+</div>
+<h4 class="font-weight-bold mt-4">Planets</h4>
+<hr>
+<div class="row">
+    <div class="col-md-3" *ngFor="let planet of elements.planets">
+        <ul>
+            <li>{{planet.name}}</li>
+        </ul>
+    </div>
+</div>
+<h4 class="font-weight-bold mt-4">Species</h4>
+<hr>
+<div class="row">
+    <div class="col-md-3" *ngFor="let sp of elements.species">
+        <ul>
+            <li>{{sp.name}}</li>
+        </ul>
+    </div>
+</div>
+<h4 class="font-weight-bold mt-4">Starships</h4>
+<hr>
+<div class="row">
+    <div class="col-md-3" *ngFor="let starship of elements.starships">
+        <ul>
+            <li>{{starship.name}}</li>
+        </ul>
+    </div>
+</div>
+<h4 class="font-weight-bold mt-4">Vehicles</h4>
+<hr>
+<div class="row">
+    <div class="col-md-3" *ngFor="let vehicle of elements.vehicles">
+        <ul>
+            <li>{{vehicle.name}}</li>
+        </ul>
+    </div>
+</div>
+<br>

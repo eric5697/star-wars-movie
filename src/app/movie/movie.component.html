@@ -1,0 +1,15 @@
+<br>
+<div class="row">
+    <div class="col-md-3">
+        <app-movie-list 
+            (movieWasSelected)="selectedMovie = $event" 
+            (elementsEmitter)="selectedElements = $event"></app-movie-list>
+    </div>
+    <div class="col-md-9">
+        <app-movie-detail 
+            *ngIf="selectedMovie; else noSelected"
+            [movie]="selectedMovie"
+            [elements]="selectedElements"></app-movie-detail>
+        <ng-template #noSelected>No Episode Selected</ng-template>
+    </div>
+</div>

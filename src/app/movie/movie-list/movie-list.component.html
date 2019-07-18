@@ -1,0 +1,12 @@
+<h3>Select Episode</h3>
+<br>
+<div class="list-group">
+    <button class="list-group-item list-group-item-action flex-column align-items-start list-style" 
+        *ngFor="let movie of movies"
+        (click)="movieSelected(movie)"
+        [ngClass]="{'active': selectedMovie.title === movie.title}">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{movie.title}} ({{movie.episode_id}})</h5>
+        </div>
+    </button>
+</div>
