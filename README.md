@@ -1,6 +1,6 @@
 # Star Wars Movie
 
-This project is a website that display seven Star Wars Movie. When user clicked the movie title on the item list, the detail of the movie will be shown.
+This project is a website that display seven Star Wars Movie. When user clicked the movie title on the item list, the detail of the movie will be shown. <br>
 Generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
 ## How to run this project
