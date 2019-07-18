@@ -35,6 +35,6 @@ It also need to get a detail service (characters, planets, species, etc) so we c
    5. Movie-detail Component <br>
       Make UI to display detail of the movie. After that on the typescript file, declare variable with @Input so it can stored movie data and the detail from movie-list component. Then write the html file to display the movie detail. So after user clicked the list on the movie-list component, the detail will be showed in movie-detail component.
 
-##Resources
+## Resources
 - http://pngimg.com/uploads/star_wars_logo/star_wars_logo_PNG43.png (Star Wars Logo)
 - https://swapi.co/ (Star Wars API)
