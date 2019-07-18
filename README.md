@@ -15,7 +15,7 @@ First run command `ng new star-wars-movie` to make an Angular project.
 - Install Boostrap <br>
 After the project has ben created, run command `npm install --save bootstrap` to add Boostrap into this project.
 
-- Create and Code Components <br>
+- Create and Coding the Components <br>
 To make a component run command `ng generate component component-name`. <br>
 This app has five components : app, header, movie, movie-list, and movie-detail component. <br>
 The app component is automaticly generated when the project was created. It is a parent component that contains header and movie component. <br>
@@ -36,5 +36,5 @@ It also need to get a detail service (characters, planets, species, etc) so we c
       Make UI to display detail of the movie. After that on the typescript file, declare variable with @Input so it can stored movie data and the detail from movie-list component. Then write the html file to display the movie detail. So after user clicked the list on the movie-list component, the detail will be showed in movie-detail component.
 
 ## Resources
-- http://pngimg.com/uploads/star_wars_logo/star_wars_logo_PNG43.png (Star Wars Logo)
 - https://swapi.co/ (Star Wars API)
+- http://pngimg.com/uploads/star_wars_logo/star_wars_logo_PNG43.png (Star Wars Logo)
